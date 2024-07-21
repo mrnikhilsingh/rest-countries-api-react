@@ -1,0 +1,65 @@
+.shimmerCard {
+  width: 100%;
+  display: flex;
+  margin-inline: auto;
+  max-width: 1200px;
+  margin-top: 3rem;
+  overflow: hidden;
+}
+
+.shimmerCard .shimmerBG {
+  transition: all 0.25s ease-in-out;
+  background-color: var(--shimmer-color);
+}
+
+.shimmerCard .media {
+  height: 330px;
+  min-width: 46%;
+}
+
+.shimmerCard .p-32 {
+  width: 100%;
+  padding-inline: 6.7%;
+  padding-top: 0.5rem;
+}
+
+.shimmerCard .title-line {
+  height: 32px;
+  width: 100%;
+  border-radius: 5px;
+  margin-bottom: 35px;
+}
+
+.shimmerCard .content-line {
+  border-radius: 4px;
+  width: 100%;
+  height: 16px;
+  margin-bottom: 20px;
+}
+
+.shimmerCard .last {
+  width: 50%;
+}
+
+@media screen and (max-width: 1024px) {
+  .shimmerCard {
+    flex-direction: column;
+    align-items: normal;
+    row-gap: 3rem;
+  }
+
+  .shimmerCard .media {
+    height: 330px;
+    max-width: 550px;
+  }
+
+  .shimmerCard .p-32 {
+    width: 100%;
+    max-width: 550px;
+    padding-inline: 0;
+  }
+
+  .shimmerCard .title-line {
+    margin-bottom: 25px;
+  }
+}

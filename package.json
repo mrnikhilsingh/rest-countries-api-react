@@ -1,0 +1,21 @@
+{
+  "name": "07_rest_api_project",
+  "version": "1.0.0",
+  "description": "Rest API Project using React Js",
+  "source": "src/index.html",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build"
+  },
+  "author": "Nikhil Singh",
+  "license": "MIT",
+  "dependencies": {
+    "parcel": "^2.12.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.24.1"
+  },
+  "devDependencies": {
+    "process": "^0.11.10"
+  }
+}
